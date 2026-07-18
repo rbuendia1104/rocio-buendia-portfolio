@@ -2,49 +2,53 @@
   const KB = [
     {
       keywords: ['hola', 'buenas', 'buenos dias', 'buenas tardes', 'buenas noches', 'saludos'],
-      answer: '¡Hola! 👋 Soy el asistente virtual de Rocío. Puedo contarte sobre sus servicios, experiencia, ubicación o cómo contactarla. ¿Qué te gustaría saber?'
+      answer: '¡Hola de nuevo! 👋 Soy Rochi. Puedo contarte sobre los servicios de Rocío, su experiencia, dónde está o cómo escribirle. ¿Qué te gustaría saber? 😊'
     },
     {
       keywords: ['servicio', 'servicios', 'producto', 'productos', 'ofreces', 'ofrecen', 'que haces', 'a que te dedicas', 'que hace'],
-      answer: 'Rocío ofrece tres líneas de trabajo: <b>productos ambientales</b> (sistemas modulares de tratamiento y monitoreo remoto), <b>servicios y proyectos</b> (diagnóstico, diseño e implementación de soluciones ambientales) y <b>asesoría en liderazgo</b>. Puedes ver el detalle en la sección "Servicios" más arriba, o escribirle directo por <a href="https://wa.me/51940198474" target="_blank" rel="noopener">WhatsApp</a>.'
+      answer: '¡Con gusto te cuento! 🌿 Rocío ofrece tres líneas de trabajo: 📦 <b>productos ambientales</b> (sistemas modulares de tratamiento y monitoreo remoto), 🌱 <b>servicios y proyectos</b> (diagnóstico, diseño e implementación de soluciones ambientales) y 🤝 <b>asesoría en liderazgo</b>. Puedes ver el detalle en la sección "Servicios" más arriba, o escribirle directo por <a href="https://wa.me/51940198474" target="_blank" rel="noopener">WhatsApp</a> 💬.'
     },
     {
       keywords: ['asesoria', 'asesoría', 'liderazgo', 'mentoria', 'mentoría', 'coaching', 'equipo', 'equipos', 'formacion', 'formación'],
-      answer: 'Rocío ofrece asesoría y acompañamiento a personas y equipos para fortalecer el liderazgo y convertir ideas en resultados. Puedes agendar una asesoría desde la sección "Servicios" o escribir directo por <a href="https://wa.me/51940198474?text=Hola%20Roc%C3%ADo%2C%20quisiera%20agendar%20una%20asesor%C3%ADa." target="_blank" rel="noopener">WhatsApp</a>.'
+      answer: '¡Me encanta esa pregunta! 🤝 Rocío ofrece asesoría y acompañamiento a personas y equipos para fortalecer el liderazgo y convertir ideas en resultados. Puedes agendar una asesoría desde la sección "Servicios" o escribir directo por <a href="https://wa.me/51940198474?text=Hola%20Roc%C3%ADo%2C%20quisiera%20agendar%20una%20asesor%C3%ADa." target="_blank" rel="noopener">WhatsApp</a> ✨.'
     },
     {
       keywords: ['contacto', 'contactar', 'whatsapp', 'telefono', 'teléfono', 'numero', 'número', 'correo', 'email', 'mail', 'escribir', 'comunicarme'],
-      answer: 'Puedes escribirle por <a href="https://wa.me/51940198474" target="_blank" rel="noopener">WhatsApp al +51 940 198 474</a> o al correo <a href="mailto:quimirocio@hotmail.com">quimirocio@hotmail.com</a>. También hay botones directos en la sección "Servicios" y "Conversemos".'
+      answer: '¡Claro que sí! 📱 Puedes escribirle por <a href="https://wa.me/51940198474" target="_blank" rel="noopener">WhatsApp al +51 940 198 474</a> o al correo <a href="mailto:quimirocio@hotmail.com">quimirocio@hotmail.com</a> ✉️. También hay botones directos en la sección "Servicios" y "Conversemos".'
     },
     {
       keywords: ['ubicacion', 'ubicación', 'donde', 'dónde', 'ciudad', 'pais', 'país', 'lima', 'peru', 'perú', 'vives', 'trabaja'],
-      answer: 'Rocío está ubicada en Lima, Perú, aunque trabaja con proyectos en distintas regiones.'
+      answer: '📍 Rocío está en Lima, Perú, aunque le encanta viajar y trabajar en proyectos de distintas regiones.'
     },
     {
       keywords: ['experiencia', 'anos', 'años', 'cuanto tiempo', 'cuánto tiempo', 'trayectoria', 'hace cuanto'],
-      answer: 'Tiene más de <b>17 años de experiencia</b> en proyectos, obras, servicios y suministros para los sectores minero, industrial, petrolero y ambiental.'
+      answer: '🌟 Tiene más de <b>17 años de experiencia</b> en proyectos, obras, servicios y suministros para los sectores minero, industrial, petrolero y ambiental. ¡Un montón de historias que contar!'
     },
     {
       keywords: ['sector', 'sectores', 'industria', 'mineria', 'minería', 'petrolero', 'petroleo', 'petróleo'],
-      answer: 'Ha trabajado en los sectores <b>minero, industrial, petrolero y ambiental</b>, con foco en soluciones de agua y medio ambiente.'
+      answer: '🏭 Ha trabajado en los sectores <b>minero, industrial, petrolero y ambiental</b>, siempre con foco en soluciones de agua y medio ambiente.'
     },
     {
       keywords: ['profesion', 'profesión', 'estudios', 'ingeniera', 'quimica', 'química', 'quien es', 'quién es', 'quien eres'],
-      answer: 'Rocío es <b>ingeniera química</b> y lidera proyectos, productos y servicios ambientales, combinando conocimiento técnico con un liderazgo cercano.'
+      answer: '👩‍🔬 Rocío es <b>ingeniera química</b> y lidera proyectos, productos y servicios ambientales, combinando conocimiento técnico con un liderazgo cercano y humano.'
     },
     {
       keywords: ['foto', 'fotos', 'galeria', 'galería', 'proyectos', 'video', 'imagen', 'imagenes', 'imágenes'],
-      answer: 'En la sección "Galería" puedes ver fotos y un video reales de sus proyectos en campo: muestreo, plantas de tratamiento, minería y más.'
+      answer: '📸🎥 En la sección "Galería" puedes ver fotos y un video reales de sus proyectos en campo: muestreo, plantas de tratamiento, minería y más. ¡Vale la pena verlas!'
     },
     {
       keywords: ['gracias', 'genial', 'perfecto', 'excelente'],
-      answer: '¡De nada! Si tienes otra pregunta, aquí estoy. Y si prefieres hablar directo con Rocío, puedes escribirle por <a href="https://wa.me/51940198474" target="_blank" rel="noopener">WhatsApp</a>.'
+      answer: '¡De nadaaa! 💛 Fue un gusto ayudarte. Si tienes otra pregunta, aquí sigo. Y si prefieres hablar directo con Rocío, escríbele por <a href="https://wa.me/51940198474" target="_blank" rel="noopener">WhatsApp</a> 🙌.'
+    },
+    {
+      keywords: ['quien eres tu', 'quien es rochi', 'que eres', 'eres un bot', 'eres una persona', 'como te llamas'],
+      answer: '¡Soy Rochi! 🌿 Un pequeño asistente virtual creado para ayudarte a conocer más sobre el trabajo de Rocío mientras exploras esta página. No soy Rocío, pero con gusto te oriento en lo que necesites 😊.'
     }
   ];
 
-  const FALLBACK = 'No tengo una respuesta exacta para eso, pero puedes escribirle directo a Rocío por <a href="https://wa.me/51940198474" target="_blank" rel="noopener">WhatsApp</a> o al correo <a href="mailto:quimirocio@hotmail.com">quimirocio@hotmail.com</a> y te responderá personalmente.';
+  const FALLBACK = 'Mmm, esa no la tengo tan clara todavía 🤔 pero no te preocupes: escríbele directo a Rocío por <a href="https://wa.me/51940198474" target="_blank" rel="noopener">WhatsApp</a> o al correo <a href="mailto:quimirocio@hotmail.com">quimirocio@hotmail.com</a> y ella te responderá personalmente 💬.';
 
-  const GREETING = '¡Hola! Soy el asistente virtual de esta página. Puedo responder preguntas básicas sobre servicios, experiencia, ubicación y contacto. ¿En qué te ayudo?';
+  const GREETING = '¡Hola! Soy Rochi 🌿, el asistente virtual de esta página. Estoy aquí para ayudarte con lo que necesites saber sobre Rocío y su trabajo. ¿En qué te ayudo hoy? 😊';
 
   const QUICK_REPLIES = ['Servicios', 'Experiencia', 'Ubicación', 'Contacto'];
 
