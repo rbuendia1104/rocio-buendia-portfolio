@@ -1,6 +1,8 @@
 (function () {
-  const CONTACT_EMAIL = 'quimirocio@hotmail.com';
-  const ENDPOINT = 'https://formsubmit.co/ajax/' + CONTACT_EMAIL;
+  // Pega aqui la URL de tu Google Apps Script (termina en /exec).
+  // Ver google-apps-script.gs para las instrucciones de configuracion.
+  // Mientras quede vacio, el formulario avisa que aun no esta conectado.
+  const ENDPOINT = '';
 
   const form = document.getElementById('contactForm');
   const status = document.getElementById('contactFormStatus');
@@ -21,14 +23,29 @@
       return;
     }
 
+    if (!ENDPOINT) {
+      setStatus(
+        'El formulario aún no está conectado. Mientras tanto, escríbenos directo por WhatsApp o correo.',
+        'error'
+      );
+      return;
+    }
+
     submitBtn.disabled = true;
     submitLabel.textContent = 'Enviando…';
     setStatus('', '');
 
+    const data = {
+      Nombre: form.querySelector('#cfName').value,
+      Correo: form.querySelector('#cfEmail').value,
+      Telefono: form.querySelector('#cfPhone').value,
+      Mensaje: form.querySelector('#cfMessage').value
+    };
+
     fetch(ENDPOINT, {
       method: 'POST',
-      headers: { Accept: 'application/json' },
-      body: new FormData(form)
+      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+      body: JSON.stringify(data)
     })
       .then(function (res) {
         if (!res.ok) throw new Error('bad response');
