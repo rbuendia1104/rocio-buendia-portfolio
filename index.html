@@ -414,6 +414,28 @@
   </div>
 </footer>
 
+<div class="assistant" id="assistant">
+  <div class="assistant__panel" id="assistantPanel" role="dialog" aria-label="Asistente virtual" aria-hidden="true">
+    <div class="assistant__header">
+      <div>
+        <strong>Asistente de Rocío</strong>
+        <span>Responde preguntas básicas al instante</span>
+      </div>
+      <button class="assistant__close" id="assistantClose" aria-label="Cerrar asistente">✕</button>
+    </div>
+    <div class="assistant__messages" id="assistantMessages"></div>
+    <div class="assistant__chips" id="assistantChips"></div>
+    <form class="assistant__input" id="assistantForm">
+      <input type="text" id="assistantInput" placeholder="Escribe tu pregunta…" autocomplete="off" aria-label="Escribe tu pregunta">
+      <button type="submit" aria-label="Enviar">➤</button>
+    </form>
+  </div>
+  <button class="assistant__toggle" id="assistantToggle" aria-label="Abrir asistente virtual" aria-expanded="false">
+    <span class="assistant__toggle-icon">💬</span>
+  </button>
+</div>
+
 <script src="js/script.js"></script>
+<script src="js/assistant.js"></script>
 </body>
 </html>
