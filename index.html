@@ -402,6 +402,37 @@
           <span class="contact__value">Lima, Perú</span>
         </div>
       </div>
+
+      <div class="contact-form reveal">
+        <h3>¿Prefieres que te escriba yo?</h3>
+        <p>Déjame tus datos y me pongo en contacto contigo lo antes posible.</p>
+        <form id="contactForm" class="contact-form__form">
+          <input type="text" name="_honey" class="contact-form__honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <input type="hidden" name="_subject" value="Nuevo mensaje desde rociobuendia.com">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <div class="contact-form__row">
+            <label for="cfName">Nombre completo</label>
+            <input type="text" id="cfName" name="Nombre" required autocomplete="name">
+          </div>
+          <div class="contact-form__row">
+            <label for="cfEmail">Correo electrónico</label>
+            <input type="email" id="cfEmail" name="Correo" required autocomplete="email">
+          </div>
+          <div class="contact-form__row">
+            <label for="cfPhone">Teléfono <span>(opcional)</span></label>
+            <input type="tel" id="cfPhone" name="Teléfono" autocomplete="tel">
+          </div>
+          <div class="contact-form__row">
+            <label for="cfMessage">Mensaje</label>
+            <textarea id="cfMessage" name="Mensaje" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary contact-form__submit">
+            <span class="contact-form__submit-label">Enviar mensaje</span>
+          </button>
+          <p class="contact-form__status" id="contactFormStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
     </div>
   </section>
 
@@ -437,5 +468,6 @@
 
 <script src="js/script.js"></script>
 <script src="js/assistant.js"></script>
+<script src="js/contact-form.js"></script>
 </body>
 </html>
